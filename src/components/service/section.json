@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_service_sections",
+  "info": {
+    "displayName": "section"
+  },
+  "options": {},
+  "attributes": {
+    "section_title": {
+      "type": "string"
+    },
+    "section_paragraph": {
+      "type": "richtext"
+    },
+    "bullet_points": {
+      "type": "component",
+      "component": "service.bullet",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
